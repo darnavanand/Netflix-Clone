@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    position: relative;
+    
+}
+
+#netflix{
+    display: inline-block;
+    margin-left: 30px;
+    
+    position: absolute;
+    
+}
+
+#netflix img{
+    height: 80px;
+    width: 130px;
+}
+#list{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 20px;
+}
+
+#list, #list li{
+    display: inline-block;
+    list-style: none;
+    color: white;
+}
+
+#list li{
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#list li:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+.sec1{
+    
+    height: 100%;
+    width: 100%;
+   
+}
+.sec1 video{
+    position: absolute;
+    z-index: -1;
+    height: auto;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+#daredevil img{
+    height: 180px;
+    width: 450px;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+#genere{
+    font-size:15px ;
+    color: white;
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 80px;
+}
+.content{
+    height: 70px;
+    width: 400px;
+    
+    color:white;
+    font-size: 17px;
+    margin-left: 80px;
+}
+.playbtn{
+    height: 60px;
+    width: 400px;
+    
+    margin-bottom: 60px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.playbtn .btn{
+    height: 40px;
+    width: 130px; 
+    margin: 10px;
+    background: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.playbtn .btn img{
+    height: 25px;
+    width: 25px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+
+
+#moreinfo{
+    background: rgba(128,128,128,0.5);
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+}
+
+
+.wrapper i {
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+  }
+  .wrapper i:active{
+    transform: translateY(-50%) scale(0.85);
+  }
+  .wrapper i:first-child{
+    left: 20px;
+    z-index: 10;
+  }
+  .wrapper i:last-child{
+    right: 0px;
+  }
+  .suggestion{
+    
+    position: relative;
+    display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 8));
+  overflow-x: auto;
+  padding-left: 60px;
+  padding-right: 10px;
+  scroll-snap-type: x mandatory;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  /* justify-content: center;
+  align-items: center; */
+  
+  
+}
+.suggestion::-webkit-scrollbar {
+    display: none;
+}
+#tv{
+    color: white;
+    margin-left: 60px;
+    font-weight: 1000;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#item{
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+#item:hover{
+    transform: scale(0.85)
+    
+  }
+
+#item img{
+    object-fit: fill;
+    position: absolute;
+}
+
+.sec2{
+    background: black;
+    height: 80%;
+    width: 100%;
+}
+
+#popular{
+    color: white;
+    margin-left: 60px;
+    font-weight: 1000;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 100px;
+}
